@@ -24,7 +24,7 @@ import shield from "./Shield.svg";
 import star from "./Star.svg";
 import twitter from "./twitter.svg";
 
-export default {
+export {
   airbnb,
   apple,
   arrowUp,

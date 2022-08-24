@@ -29,7 +29,7 @@ export const FeedbackCard: React.FC<FeedbackCardProps> = ({
       <div className="flex flex-row">
         <img alt={name} className="w-[48px] h-[48px] rounded-full" src={img} />
         <div className="flex flex-col ml-4">
-          <h4 className="font-poppins font-semibold text-xl text-white leading-[32px]">{name}</h4>
+          <h3 className="font-poppins font-semibold text-xl text-white leading-[32px]">{name}</h3>
           <p className="font-poppins font-normal text-[16px] text-dimWhite leading-[24px]">{title}</p>
         </div>
       </div>

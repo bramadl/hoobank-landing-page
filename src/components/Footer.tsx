@@ -26,9 +26,9 @@ export const Footer = () => {
               key={footerLink.title}
               className="flex flex-col ss:my-0 my-4 min-w-[150px]"
             >
-              <h4 className="font-poppins font-medium text-lg text-white leading-[27px]">
+              <h2 className="font-poppins font-medium text-lg text-white leading-[27px]">
                 {footerLink.title}
-              </h4>
+              </h2>
               <ul className="mt-4">
                 {footerLink.links.map((link) => (
                   <li
